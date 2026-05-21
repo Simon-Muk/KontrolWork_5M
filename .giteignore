@@ -1,0 +1,210 @@
+# Создано https://www.toptal.com/developers/gitignore/api/python, визуальным стилюстудиодом,linux
+# Редактировать на https://www.toptal.com/developers/gitignore? шаблоны=питон, визуальный студийный код,linux
+
+### Linux ###
+*~
+
+# временные файлы, которые могут быть созданы, если процесс все еще имеет ручку, открытую из удаленного файла
+.fuse_hidden*
+
+# Предпочтения каталога KDE
+.каталог
+
+# папка для мусора Linux, которая может появиться на любом разделе или диске
+. Мусор-*
+
+# .nfs файлы создаются, когда открытый файл удаляется, но все еще доступен для доступа
+.nfs*
+
+### Python ###
+# Byte-скомпилированные / оптимизированные / DLL файлы
+__pickache___/
+*.py[код]
+*$py.класс
+
+# C расширения
+*.so
+
+# Дистрибуция / упаковка
+. Python
+Строить/
+development-яйца/
+Дист/
+загрузки/
+яйца.
+.EGgs/
+lib/
+lib64/
+части/
+Садист/
+Вар/
+колеса/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.ягг
+МАНИФЕСТ
+
+# PyInstaller
+# Обычно эти файлы написаны скриптом Python из шаблона
+# до того, как PyInstaller построит exe, чтобы ввести в него дату / другие данные.
+*.манифест
+*.специфика
+
+# Журналы монтажника
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / отчеты о покрытии
+htmlcov/
+.tox/
+.nox/
+.coverage
+. Покрытие. * *
+.кэш
+носtests.xml
+покрытие.xml
+*.cover
+*.py, крыша
+.гипотеза/
+.pytest_cache/
+обложка/
+
+# Переводы
+*.мо
+*.pot
+
+# Джанго вещи:
+*.лог
+local_settings.py
+db.sqlite3
+db.sqlite3-журнал
+
+# Фляж вещи:
+экземпляр/
+.webassets-кэш
+
+# Scrapy вещи:
+.scrapy
+
+# Документация Sphinx
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+цель/
+
+# Записная книжка Юпитера
+.ipynb_checkpoints
+
+# Ипитхон
+профайл_дефолт/
+ipython_config.py
+
+# pyenv
+# Для библиотеки или пакета, вы можете игнорировать эти файлы, так как код
+# предназначен для работы в нескольких средах; в противном случае проверьте их в:
+# .python-версия
+
+# pipenv
+# Согласно pypa/pipenv#598, рекомендуется включить Pipfile.lock в управление версиями.
+# Однако в случае сотрудничества, если у вас есть специфические для платформы зависимости или зависимости
+# не имея кроссплатформенной поддержки, pipenv может устанавливать зависимости, которые не работают или нет
+# установите все необходимые зависимости.
+#Pipfile.lock
+
+# поэзия
+# Подобно Pipfile.lock, обычно рекомендуется включать poetry.lock в контроль версий.
+# Это особенно рекомендуется для бинарных пакетов для обеспечения воспроизводимости, и является более
+# обычно игнорируется для библиотек.
+# https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+#poetry.lock
+
+# pdm
+# Подобно Pipfile.lock, обычно рекомендуется включать pdm.lock в управление версиями.
+#pdm.lock
+#pdm магазины общепроектные конфигурации в .pdm.toml, но рекомендуется не включать его
+# в версии контроль.
+# https://pdm.fming.dev/#use-with-ide
+.pdm.toml
+
+# PEP 582; используется, например, github.com/David-Oconnor/pyflow и github.com/pdm-project/pdm
+__pypackages___/
+
+# Сельдерейные вещи
+Сельдерей-Бич-расписание
+celerybeat.pid
+
+# SageMath пропарированные файлы
+*.sage.py
+
+# Окружающая среда
+.env
+.venv
+env/
+Venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Настройки проекта Spyder
+.spyderпроект
+.spyпроект
+
+# Настройки проекта Rope
+.ropeproject
+
+# mkdocs документация
+/ сайт
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Проверка типа Pyre
+.pyre/
+
+# pytype статический тип анализатор
+.pytype/
+
+# Cython отладочные символы
+cython_debug/
+
+# PyCharm
+# Конкретный шаблон JetBrains поддерживается в отдельном JetBrains.gitignore, который может
+# найти на https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+# и может быть добавлен в глобальный gitignore или объединен в этот файл.  Для более ядерного
+# опция (не рекомендуется) вы можете оттолкнуть следующее, чтобы игнорировать всю папку идеи.
+.idea/
+
+### Python Patch ###
+# Поэзия локальная конфигурационная файл - https://python-poetry.org/docs/configuration/#local-configuration
+poetry.toml
+
+# Ruff
+.ruff_cache/
+
+# LSP конфигурационные файлы
+pyrightconfig.json
+
+### VisualStudioКод ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Localistory for Visual Studio Code
+.история/
+
+# Встроенный Визуальный Студия Код Расширения
+*.vsix
+
+### VisualStudioCode Патч ###
+# Игнорировать всю местную историю файлов
+.история
+.ионид
+
+# Конец https://www.toptal.com/developers/gitignore/api/python,visualstudiocode,linux
